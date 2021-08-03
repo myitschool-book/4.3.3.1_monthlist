@@ -3,11 +3,34 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="20dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <TextView
-        android:id="@+id/tvItem"
+        android:id="@+id/tvMonth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/month"
         android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tvDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/days"
+        android:textSize="12sp"/>
+    <CheckBox
+    android:id="@+id/checkBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="@string/like" />
 </LinearLayout>

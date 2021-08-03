@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MonthList</string>
     <string name="change">Изменить</string>
+    <string name="days">Количество дней</string>
+    <string name="like">Мне нравится этот месяц</string>
+    <string name="temp">Среднесуточная температура</string>
+    <string name="month">Месяц</string>
 </resources>
